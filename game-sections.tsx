@@ -17,7 +17,7 @@ import { BoldHeadingQuinary } from '@/shared/ui/typography';
 import { WishlistToggle } from '@/features/wishlist/ui/wishlist-toggle';
 
 const GameSections = ({ mobileLandscape }) => {
-  const { categoriesWithGames, showCategories, games, isSectionsLoading } =
+  const { categoriesWithGames, showCategories, games } =
     useGameSections();
   const [currentGame, setCurrentGame] = useState(null);
 

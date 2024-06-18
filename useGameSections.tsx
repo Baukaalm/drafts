@@ -61,6 +61,5 @@ export function useGameSections() {
     categoriesWithGames,
     showCategories,
     games: filteredGames,
-    isSectionsLoading: false,
   };
 }
